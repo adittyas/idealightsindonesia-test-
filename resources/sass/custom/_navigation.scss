@@ -1,0 +1,40 @@
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+
+    a {
+        float: left;
+        display: block;
+        color: $dark;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+
+        &:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        &.active {
+            background-color: transparent;
+            color: $dark;
+        }
+    }
+
+    .icon {
+        display: none;
+    }
+
+    @include break-to('sm') {
+        a:not(:first-child) {
+            display: none;
+        }
+
+        a.icon {
+            float: right;
+            display: block;
+            color: $dark;
+        }
+    }
+}

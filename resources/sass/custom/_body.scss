@@ -1,0 +1,37 @@
+html {
+    overflow-x: hidden;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #f8f9fe;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+header,
+main,
+footer,
+section,
+nav,
+.topnav {
+    max-width: unit(1360) !important;
+    margin: 0 auto;
+}

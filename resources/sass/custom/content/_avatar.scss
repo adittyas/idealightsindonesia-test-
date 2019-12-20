@@ -1,0 +1,19 @@
+#avatar {
+    // background-color: brown;
+    padding: unit(15);
+    text-align: center;
+
+    img {
+        border-radius: 4px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    &Name {
+        color: $blue;
+    }
+
+    &Country {
+        color: lighten($blue, 20%);
+    }
+}

@@ -1,0 +1,14 @@
+#contact,
+#profile {
+    .groupContact {
+        display: flex;
+
+        .icon {
+            align-self: center;
+        }
+
+        .textContact {
+            padding-left: unit(15);
+        }
+    }
+}
